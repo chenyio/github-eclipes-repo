@@ -5,7 +5,7 @@
 <head>
 <style>
 .background1 {
-	background-image: url(/static/imgs/pic008.jpg);
+	background-image: url(/static/imgs/pic001.jpg);
 	background-color: #000000;
 }
 </style>
