@@ -5,7 +5,7 @@
 <head>
 <style>
 .background1 {
-	background-image: url(/static/imgs/pic001.jpg);
+	background-image: url(/static/imgs/pic002.jpg);
 	background-color: #000000;
 }
 </style>
@@ -16,8 +16,8 @@
 		$('#poem')[0].play();
 		$('#poem-txt').fadeIn('slow');
 		$(clickedObj).animate({
-			width : '1000px',
-			opacity : '1',
+			width : '10px',
+			opacity : '0.2',
 			right : '1800px',
 			top : '1000px'
 		}, 12000);
@@ -56,7 +56,7 @@
 			-郭鹏 </span><br /> <br /> 西风吹皱东方河，万年地球白发多。 <br /> 流浪星际家何去，满船清梦出银河。
 	</div>
 	<img src="/static/imgs/earth.png"
-		style="position: absolute; right: 10px; top: 10px; width: 40px"
+		style="position: absolute; right: 10px; top: 10px; width: 200px"
 		onclick="run(this);return false" />
 	<div id="moviebox" style="margin-top: 100px; display: none"
 		align="center">
